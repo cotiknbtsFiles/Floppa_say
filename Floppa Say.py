@@ -8,9 +8,9 @@ import io
 from textwrap import wrap
 
 def register(cb):
-	cb(HitlerMod())
+	cb(FloppaMod())
 	
-class HitlerMod(loader.Module):
+class FloppaMod(loader.Module):
 	"""Floppa Say"""
 	strings = {
 		'name': 'Floppa Say',
