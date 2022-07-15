@@ -37,7 +37,7 @@ class JacquesMod(loader.Module):
 				txt = reply.raw_text
 		else:
 			txt = utils.get_args_raw(message)
-		await message.edit("<b>Шлема крут...</b>")
+		await message.edit("<b>Шлепа крут...</b>")
 		pic = requests.get("https://github.com/cotiknbtsFiles/shlepa_say/raw/main/Screenshot_2022-07-13-03-48-48-06_4ab34c1cc13001646ffc6e1ca68df0a1.jpg")
 		pic.raw.decode_content = True
 		img = Image.open(io.BytesIO(pic.content)).convert("RGB")
